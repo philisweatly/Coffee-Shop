@@ -71,6 +71,7 @@ body, button {
     background-size: cover;
     background-position: center center;
     padding-top: 2rem;
+    margin-top: -1px;
 }
 
 .about__textbox {
