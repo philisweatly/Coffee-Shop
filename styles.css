@@ -57,12 +57,20 @@ body, button {
     display: block;
 }
 
+.hero__box {
+    background-image: url(https://images.unsplash.com/photo-1551462577-9aaf3ff5d927?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1956&q=80);
+    background-size: cover;
+    background-position: top;
+    height: 95vh;
+}
+
 /* ABOUT SECTION */
 
 .about {
     background-color: rgb(29, 28, 28);
     background-size: cover;
     background-position: center center;
+    padding-top: 2rem;
 }
 
 .about__textbox {
@@ -102,18 +110,25 @@ body, button {
     height: 10rem;
     background-position: center center;
     background-size: cover;
+    border-radius: 3px;
 }
 .item__image2 {
-    background-image: url(https://images.unsplash.com/photo-1475296204602-08d15839e95f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-image: url(https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80);
     height: 10rem;
     background-position: center center;
     background-size: cover;
+    border-radius: 3px;
+
 }
 
 .hours__main {
     font-size: 2rem;
     font-weight: 300;
     margin-bottom: 1rem 1.3rem;
+}
+
+.hours__box {
+    min-width: 15rem;
 }
 
 .underline {
@@ -182,12 +197,6 @@ body, button {
     }
 }
 
-.hero__box {
-    background-image: url(https://images.unsplash.com/photo-1551462577-9aaf3ff5d927?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1956&q=80);
-    background-size: cover;
-    background-position: top center;
-    height: 95vh;
-}
 
 .active {
     display: block;
@@ -196,6 +205,7 @@ body, button {
 @media screen and (max-width: 500px) {
     .about__item {
         flex-basis: 100%;
+        margin: 1rem 1rem;
     }
 
 }
