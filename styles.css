@@ -60,7 +60,7 @@ body, button {
 .hero__box {
     background-image: url(https://images.unsplash.com/photo-1551462577-9aaf3ff5d927?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1956&q=80);
     background-size: cover;
-    background-position: top;
+    background-position: 57%;
     height: 95vh;
 }
 
