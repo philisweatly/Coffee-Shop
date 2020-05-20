@@ -59,9 +59,7 @@ body, button {
     display: block;
 }
 
-.fadein {
-    opacity: 1;
-}
+
 
 /* END OF JAVASCRIPT CLASSES */
 
@@ -114,6 +112,12 @@ body, button {
     flex-basis: 25%;
     opacity: 0;
     transition: all 1s;
+    transform: scale(.7, .7);
+}
+
+.fadein {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .item__image1 {
